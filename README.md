@@ -1,6 +1,6 @@
 # TaskFlow - A Modern Task Manager
 
-Kinetic Flow is a modern task manager application designed to help you organize your tasks efficiently. With a clean and intuitive interface, it allows you to manage your to-do list with ease. This project is built with the latest web technologies, providing a fast and responsive user experience.
+TaskFlow is a modern task manager application designed to help you organize your tasks efficiently. With a clean and intuitive interface, it allows you to manage your to-do list with ease. This project is built with the latest web technologies, providing a fast and responsive user experience.
 
 ## Features
 
