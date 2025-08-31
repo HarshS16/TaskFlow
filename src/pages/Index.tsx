@@ -286,10 +286,7 @@ const Index = () => {
             setUser(session?.user ?? null);
             
             if (event === 'SIGNED_IN' && session?.user) {
-              // Defer data fetching to prevent deadlocks
-              setTimeout(() => {
-                loadTasks();
-              }, 0);
+              loadTasks();
             }
           } catch (error) {
             console.error('Error in auth state change:', error);
@@ -333,7 +330,7 @@ const Index = () => {
       setIsLoading(false);
       navigate('/auth');
     }
-  }, [navigate]);
+  }, [navigate, loadTasks]);
 
 
 
